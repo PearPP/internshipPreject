@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8'?><wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:ns1="http://shirt.ws.controllers.oceantest.com/" name="ShirtWsService" targetNamespace="http://shirt.ws.controllers.oceantest.com/">
+  <wsdl:types>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://shirt.ws.controllers.oceantest.com/" attributeFormDefault="unqualified" elementFormDefault="unqualified" targetNamespace="http://shirt.ws.controllers.oceantest.com/">
+  <xs:element name="findAll" type="tns:findAll"/>
+  <xs:element name="findAllResponse" type="tns:findAllResponse"/>
+  <xs:element name="findByBrand" type="tns:findByBrand"/>
+  <xs:element name="findByBrandResponse" type="tns:findByBrandResponse"/>
+  <xs:element name="findByName" type="tns:findByName"/>
+  <xs:element name="findByNameResponse" type="tns:findByNameResponse"/>
+  <xs:element name="findByid" type="tns:findByid"/>
+  <xs:element name="findByidResponse" type="tns:findByidResponse"/>
+  <xs:complexType name="findByid">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:int"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="findByidResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:shirtEntity"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="shirtEntity">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="brand" type="xs:string"/>
+      <xs:element minOccurs="0" name="catId" type="tns:shirtCategoryEntity"/>
+      <xs:element minOccurs="0" name="id" type="xs:int"/>
+      <xs:element minOccurs="0" name="name" type="xs:string"/>
+      <xs:element minOccurs="0" name="price" type="xs:double"/>
+      <xs:element minOccurs="0" name="taste" type="xs:int"/>
+      <xs:element minOccurs="0" name="tran" type="tns:transactionEntity"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="shirtCategoryEntity">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="catId" type="xs:int"/>
+      <xs:element minOccurs="0" name="category" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="transactionEntity">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="searchBy" type="xs:string"/>
+      <xs:element minOccurs="0" name="searchDate" type="xs:dateTime"/>
+      <xs:element minOccurs="0" name="shirt" type="tns:shirtEntity"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="findAll">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:int"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="findAllResponse">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="return" type="tns:shirtEntity"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="findByName">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="findByNameResponse">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="return" type="tns:shirtEntity"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="findByBrand">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="findByBrandResponse">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="return" type="tns:shirtEntity"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Exception" type="tns:Exception"/>
+  <xs:complexType name="Exception">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="message" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
+  </wsdl:types>
+  <wsdl:message name="findAllResponse">
+    <wsdl:part element="ns1:findAllResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="findByBrand">
+    <wsdl:part element="ns1:findByBrand" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="findByidResponse">
+    <wsdl:part element="ns1:findByidResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="findByid">
+    <wsdl:part element="ns1:findByid" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="findAll">
+    <wsdl:part element="ns1:findAll" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="findByName">
+    <wsdl:part element="ns1:findByName" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="findByNameResponse">
+    <wsdl:part element="ns1:findByNameResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="findByBrandResponse">
+    <wsdl:part element="ns1:findByBrandResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="Exception">
+    <wsdl:part element="ns1:Exception" name="Exception">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="ShirtWsService">
+    <wsdl:operation name="findByid">
+      <wsdl:input message="ns1:findByid" name="findByid">
+    </wsdl:input>
+      <wsdl:output message="ns1:findByidResponse" name="findByidResponse">
+    </wsdl:output>
+      <wsdl:fault message="ns1:Exception" name="Exception">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="findAll">
+      <wsdl:input message="ns1:findAll" name="findAll">
+    </wsdl:input>
+      <wsdl:output message="ns1:findAllResponse" name="findAllResponse">
+    </wsdl:output>
+      <wsdl:fault message="ns1:Exception" name="Exception">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="findByName">
+      <wsdl:input message="ns1:findByName" name="findByName">
+    </wsdl:input>
+      <wsdl:output message="ns1:findByNameResponse" name="findByNameResponse">
+    </wsdl:output>
+      <wsdl:fault message="ns1:Exception" name="Exception">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="findByBrand">
+      <wsdl:input message="ns1:findByBrand" name="findByBrand">
+    </wsdl:input>
+      <wsdl:output message="ns1:findByBrandResponse" name="findByBrandResponse">
+    </wsdl:output>
+      <wsdl:fault message="ns1:Exception" name="Exception">
+    </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

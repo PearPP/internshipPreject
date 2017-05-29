@@ -1,0 +1,155 @@
+2016-07-06 08:18:53,378 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.3.Final
+2016-07-06 08:18:53,515 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.2.Final
+2016-07-06 08:18:53,564 INFO  [org.jboss.as] (MSC service thread 1-6) JBAS015899: WildFly 8.2.0.Final "Tweek" starting
+2016-07-06 08:18:53,568 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /home/keelati/oceanTestWs/trunk/target/wildfly-run/wildfly-8.2.0.Final/jboss-modules.jar
+	java.class.version = 51.0
+	java.endorsed.dirs = /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/endorsed
+	java.ext.dirs = /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /usr/lib/jvm/java-7-openjdk-amd64/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 1.7.0_55-b14
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.7
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.7.0_55
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.7
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 24.51-b03
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.ajp.port = 9110
+	jboss.bind.address = 0.0.0.0
+	jboss.home.dir = /home/keelati/oceanTestWs/trunk/target/wildfly-run/wildfly-8.2.0.Final
+	jboss.host.name = keelati-hp-prodesk-400-g1-sff
+	jboss.http.port = 9010
+	jboss.https.port = 9310
+	jboss.management.http.port = 9210
+	jboss.modules.dir = /home/keelati/oceanTestWs/trunk/target/wildfly-run/wildfly-8.2.0.Final/modules
+	jboss.node.name = keelati-hp-prodesk-400-g1-sff
+	jboss.qualified.host.name = keelati-hp-prodesk-400-g1-sff
+	jboss.server.base.dir = /home/keelati/oceanTestWs/trunk/target/wildfly-run/wildfly-8.2.0.Final/standalone
+	jboss.server.config.dir = /home/keelati/oceanTestWs/trunk/target/wildfly-run/wildfly-8.2.0.Final/standalone/configuration
+	jboss.server.data.dir = /home/keelati/oceanTestWs/trunk/target/wildfly-run/wildfly-8.2.0.Final/standalone/data
+	jboss.server.deploy.dir = /home/keelati/oceanTestWs/trunk/target/wildfly-run/wildfly-8.2.0.Final/standalone/data/content
+	jboss.server.log.dir = /home/keelati/oceanTestWs/trunk/target/wildfly-run/wildfly-8.2.0.Final/standalone/log
+	jboss.server.name = keelati-hp-prodesk-400-g1-sff
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /home/keelati/oceanTestWs/trunk/target/wildfly-run/wildfly-8.2.0.Final/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/home/keelati/oceanTestWs/trunk/target/wildfly-run/wildfly-8.2.0.Final/standalone/configuration/logging.properties
+	module.path = /home/keelati/oceanTestWs/trunk/target/wildfly-run/wildfly-8.2.0.Final/modules
+	nbsweb.defaultPermissions = 0
+	org.jboss.boot.log.file = /home/keelati/oceanTestWs/trunk/target/wildfly-run/wildfly-8.2.0.Final/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Linux
+	os.version = 3.11.0-12-generic
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.class.path = /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/netx.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/plugin.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes
+	sun.boot.library.path = /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.desktop = gnome
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /home/keelati/oceanTestWs/trunk/target/wildfly-run/wildfly-8.2.0.Final/jboss-modules.jar -mp /home/keelati/oceanTestWs/trunk/target/wildfly-run/wildfly-8.2.0.Final/modules org.jboss.as.standalone -Djboss.home.dir=/home/keelati/oceanTestWs/trunk/target/wildfly-run/wildfly-8.2.0.Final
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = US
+	user.dir = /home/keelati/oceanTestWs/trunk
+	user.home = /home/keelati
+	user.language = en
+	user.name = keelati
+	user.timezone = Asia/Bangkok
+2016-07-06 08:18:53,570 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -Xms64m -Xmx512m -XX:MaxPermSize=512m -Djava.net.preferIPv4Stack=true -Djboss.http.port=9010 -Djboss.ajp.port=9110 -Djboss.management.http.port=9210 -Djboss.https.port=9310 -Dnbsweb.defaultPermissions=0 -Djboss.bind.address=0.0.0.0 -Dorg.jboss.boot.log.file=/home/keelati/oceanTestWs/trunk/target/wildfly-run/wildfly-8.2.0.Final/standalone/log/server.log -Dlogging.configuration=file:/home/keelati/oceanTestWs/trunk/target/wildfly-run/wildfly-8.2.0.Final/standalone/configuration/logging.properties 
+2016-07-06 08:18:54,157 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Creating http management service using socket-binding (management-http)
+2016-07-06 08:18:54,170 INFO  [org.xnio] (MSC service thread 1-16) XNIO version 3.3.0.Final
+2016-07-06 08:18:54,177 INFO  [org.xnio.nio] (MSC service thread 1-16) XNIO NIO Implementation Version 3.3.0.Final
+2016-07-06 08:18:54,188 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 45) JBAS013171: Activating Security Subsystem
+2016-07-06 08:18:54,190 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 46) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+2016-07-06 08:18:54,190 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 40) JBAS011800: Activating Naming Subsystem
+2016-07-06 08:18:54,194 INFO  [org.jboss.as.security] (MSC service thread 1-9) JBAS013170: Current PicketBox version=4.0.21.Final
+2016-07-06 08:18:54,197 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 32) JBAS010280: Activating Infinispan subsystem.
+2016-07-06 08:18:54,197 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Activating WebServices Extension
+2016-07-06 08:18:54,200 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 31) WFLYIO001: Worker 'default' has auto-configured to 16 core threads with 128 task threads based on your 8 available processors
+2016-07-06 08:18:54,214 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 38) JBAS012615: Activated the following JSF Implementations: [main]
+2016-07-06 08:18:54,217 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-3) JBAS010408: Starting JCA Subsystem (IronJacamar 1.1.9.Final)
+2016-07-06 08:18:54,220 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-12) JBAS017502: Undertow 1.1.0.Final starting
+2016-07-06 08:18:54,220 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017502: Undertow 1.1.0.Final starting
+2016-07-06 08:18:54,240 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2016-07-06 08:18:54,243 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) JBAS010417: Started Driver service with driver-name = h2
+2016-07-06 08:18:54,256 INFO  [org.jboss.remoting] (MSC service thread 1-16) JBoss Remoting version 4.0.6.Final
+2016-07-06 08:18:54,278 INFO  [org.jboss.as.naming] (MSC service thread 1-2) JBAS011802: Starting Naming Service
+2016-07-06 08:18:54,282 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-10) JBAS015400: Bound mail session [java:jboss/mail/Default]
+2016-07-06 08:18:54,324 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017527: Creating file handler for path /home/keelati/oceanTestWs/trunk/target/wildfly-run/wildfly-8.2.0.Final/welcome-content
+2016-07-06 08:18:54,328 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) JBAS017525: Started server default-server.
+2016-07-06 08:18:54,336 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) JBAS017531: Host default-host starting
+2016-07-06 08:18:54,377 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-12) JBAS017519: Undertow HTTP listener default listening on /0.0.0.0:9010
+2016-07-06 08:18:54,494 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-1) JBAS015012: Started FileSystemDeploymentService for directory /home/keelati/oceanTestWs/trunk/target/wildfly-run/wildfly-8.2.0.Final/standalone/deployments
+2016-07-06 08:18:54,499 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-10) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+2016-07-06 08:18:54,659 INFO  [org.jboss.ws.common.management] (MSC service thread 1-14) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.2.Final
+2016-07-06 08:18:54,834 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9210/management
+2016-07-06 08:18:54,834 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9210
+2016-07-06 08:18:54,834 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: WildFly 8.2.0.Final "Tweek" started in 1927ms - Started 184 of 234 services (82 services are lazy, passive or on-demand)
+2016-07-06 08:18:58,642 INFO  [org.jboss.as.repository] (management-handler-thread - 4) JBAS014900: Content added at location /home/keelati/oceanTestWs/trunk/target/wildfly-run/wildfly-8.2.0.Final/standalone/data/content/de/a14862c51022b5f2ab2aa1450ebd0bb8acd5fa/content
+2016-07-06 08:18:58,653 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015876: Starting deployment of "oceantestws.war" (runtime-name: "oceantestws.war")
+2016-07-06 08:18:59,361 WARN  [org.jboss.as.ee] (MSC service thread 1-9) JBAS011006: Not installing optional component org.springframework.web.context.request.async.StandardServletAsyncWebRequest due to an exception (enable DEBUG log level to see the cause)
+2016-07-06 08:18:59,378 WARN  [org.jboss.as.ee] (MSC service thread 1-9) JBAS011006: Not installing optional component org.springframework.http.server.ServletServerHttpAsyncRequestControl due to an exception (enable DEBUG log level to see the cause)
+2016-07-06 08:18:59,533 INFO  [io.undertow.servlet] (MSC service thread 1-11) No Spring WebApplicationInitializer types detected on classpath
+2016-07-06 08:18:59,634 INFO  [io.undertow.servlet] (MSC service thread 1-11) Initializing Spring FrameworkServlet 'hello-dispatcher'
+2016-07-06 08:18:59,635 INFO  [org.springframework.web.servlet.DispatcherServlet] (MSC service thread 1-11) FrameworkServlet 'hello-dispatcher': initialization started
+2016-07-06 08:18:59,643 INFO  [org.springframework.web.context.support.XmlWebApplicationContext] (MSC service thread 1-11) Refreshing WebApplicationContext for namespace 'hello-dispatcher-servlet': startup date [Wed Jul 06 08:18:59 ICT 2016]; root of context hierarchy
+2016-07-06 08:18:59,659 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] (MSC service thread 1-11) Loading XML bean definitions from ServletContext resource [/WEB-INF/spring-web-config.xml]
+2016-07-06 08:18:59,846 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] (MSC service thread 1-11) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-07-06 08:18:59,902 INFO  [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] (MSC service thread 1-11) Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2016-07-06 08:18:59,910 INFO  [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] (MSC service thread 1-11) Mapped URL path [/WSDL/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2016-07-06 08:18:59,934 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (MSC service thread 1-11) Mapped "{[/],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.oceantestws.web.controller.HelloController.getData()
+2016-07-06 08:18:59,946 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-11) HV000001: Hibernate Validator 5.1.3.Final
+2016-07-06 08:19:00,156 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] (MSC service thread 1-11) Looking for @ControllerAdvice: WebApplicationContext for namespace 'hello-dispatcher-servlet': startup date [Wed Jul 06 08:18:59 ICT 2016]; root of context hierarchy
+2016-07-06 08:19:00,186 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] (MSC service thread 1-11) Looking for @ControllerAdvice: WebApplicationContext for namespace 'hello-dispatcher-servlet': startup date [Wed Jul 06 08:18:59 ICT 2016]; root of context hierarchy
+2016-07-06 08:19:00,247 INFO  [org.springframework.web.servlet.DispatcherServlet] (MSC service thread 1-11) FrameworkServlet 'hello-dispatcher': initialization completed in 612 ms
+2016-07-06 08:19:00,247 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-11) JBAS017534: Registered web context: /oceantestws
+2016-07-06 08:19:00,361 INFO  [org.jboss.as.server] (management-handler-thread - 4) JBAS018559: Deployed "oceantestws.war" (runtime-name : "oceantestws.war")
+2016-07-06 17:12:22,180 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) JBAS017535: Unregistered web context: /oceantestws
+2016-07-06 17:12:22,181 INFO  [io.undertow.servlet] (MSC service thread 1-5) Destroying Spring FrameworkServlet 'hello-dispatcher'
+2016-07-06 17:12:22,182 INFO  [org.springframework.web.context.support.XmlWebApplicationContext] (MSC service thread 1-5) Closing WebApplicationContext for namespace 'hello-dispatcher-servlet': startup date [Wed Jul 06 08:18:59 ICT 2016]; root of context hierarchy
+2016-07-06 17:12:22,204 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 3) JBAS014613: Operation ("shutdown") failed - address: ([]) - failure description: "JBAS014863: Operation cancelled asynchronously"
+2016-07-06 17:12:22,205 WARN  [org.jboss.as.controller.management-operation] (management-handler-thread - 3) JBAS014626: Operation was interrupted before stability could be reached
+2016-07-06 17:12:22,206 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-14) JBAS017532: Host default-host stopping
+2016-07-06 17:12:22,223 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-11) JBAS010409: Unbound data source [java:jboss/datasources/ExampleDS]
+2016-07-06 17:12:22,232 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-12) JBAS010418: Stopped Driver service with driver-name = h2
+2016-07-06 17:12:22,237 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) JBAS017521: Undertow HTTP listener default suspending
+2016-07-06 17:12:22,238 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) JBAS017520: Undertow HTTP listener default stopped, was bound to /0.0.0.0:9010
+2016-07-06 17:12:22,240 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-10) JBAS017506: Undertow 1.1.0.Final stopping
+2016-07-06 17:12:22,248 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) JBAS015877: Stopped deployment oceantestws.war (runtime-name: oceantestws.war) in 75ms
+2016-07-06 17:12:22,256 INFO  [org.jboss.as] (MSC service thread 1-2) JBAS015950: WildFly 8.2.0.Final "Tweek" stopped in 69ms

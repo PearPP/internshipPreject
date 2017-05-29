@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC  "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"  "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+
+	<!-- Base Definition -->
+	<definition name="base-definition"
+		template="/WEB-INF/views/tiles/layouts/defaultLayout.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="header"
+			value="/WEB-INF/views/tiles/template/defaultHeader.jsp" />
+		<put-attribute name="menu"
+			value="/WEB-INF/views/tiles/template/defaultMenu.jsp" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer"
+			value="/WEB-INF/views/tiles/template/defaultFooter.jsp" />
+	</definition>
+
+	<!-- Home Page -->
+	<definition name="home" extends="base-definition">
+		<put-attribute name="title" value="Home Page" />
+		<put-attribute name="body" value="/WEB-INF/views/pages/home.jsp" />
+	</definition>
+
+	<!-- Product List Page -->
+	<definition name="shirtList" extends="base-definition">
+		<put-attribute name="title" value="Tops List" />
+		<put-attribute name="body" value="/WEB-INF/views/pages/shirtList.jsp" />
+	</definition>
+
+	<definition name="pantListByBrand" extends="base-definition">
+		<put-attribute name="title" value="Tops List By Brand" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/pages/pantListByBrand.jsp" />
+	</definition>
+
+	<definition name="pantList" extends="base-definition">
+		<put-attribute name="title" value="Bottoms List" />
+		<put-attribute name="body" value="/WEB-INF/views/pages/pantList.jsp" />
+	</definition>
+
+	<definition name="shoesList" extends="base-definition">
+		<put-attribute name="title" value="Shoes List" />
+		<put-attribute name="body" value="/WEB-INF/views/pages/shoesList.jsp" />
+	</definition>
+
+	<!-- Create Product Page -->
+	<definition name="pantCreate" extends="base-definition">
+		<put-attribute name="title" value="New Bottoms" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/pages/pantCreate.jsp" />
+	</definition>
+
+	<!-- Edit Product Page -->
+	<definition name="pantEdit" extends="base-definition">
+		<put-attribute name="title" value="Edit Bottoms" />
+		<put-attribute name="body" value="/WEB-INF/views/pages/pantEdit.jsp" />
+	</definition>
+
+	<!-- Contact-us Page -->
+	<definition name="about" extends="base-definition">
+		<put-attribute name="title" value="About" />
+		<put-attribute name="body" value="/WEB-INF/views/pages/about.jsp" />
+	</definition>
+
+</tiles-definitions>

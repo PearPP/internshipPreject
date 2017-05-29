@@ -1,0 +1,9 @@
+start
+
+sudo -u postgres psql -c "CREATE DATABASE oceantest template=template0 encoding='unicode' lc_collate='th_TH.UTF8' lc_ctype='th_TH.UTF8'"
+sudo -u postgres psql -c "CREATE USER oceantest WITH PASSWORD 'nopass';" oceantest
+sudo -u postgres psql -c "GRANT ALL PRIVILEGES ON DATABASE oceantest to oceantest;" oceantest
+
+
+INSERT INTO "public"."users" (id,fullname,username) VALUES (0,'sssssssssss','sasasaasaasas');
+

@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8'?><wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:ns1="http://ws.controllers.oceantest.com/" name="TransactionWsService" targetNamespace="http://ws.controllers.oceantest.com/">
+  <wsdl:types>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://ws.controllers.oceantest.com/" attributeFormDefault="unqualified" elementFormDefault="unqualified" targetNamespace="http://ws.controllers.oceantest.com/">
+  <xs:element name="findBySearchDate" type="tns:findBySearchDate"/>
+  <xs:element name="findBySearchDateResponse" type="tns:findBySearchDateResponse"/>
+  <xs:element name="findBySearcherName" type="tns:findBySearcherName"/>
+  <xs:element name="findBySearcherNameResponse" type="tns:findBySearcherNameResponse"/>
+  <xs:complexType name="findBySearcherName">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="findBySearcherNameResponse">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="return" type="tns:transactionEntity"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="transactionEntity">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="id" type="xs:int"/>
+      <xs:element minOccurs="0" name="product" type="tns:productEntity"/>
+      <xs:element minOccurs="0" name="searchBy" type="xs:string"/>
+      <xs:element minOccurs="0" name="searchDate" type="xs:dateTime"/>
+      <xs:element minOccurs="0" name="status" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="productEntity">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="brand" type="xs:string"/>
+      <xs:element minOccurs="0" name="categoryEntity" type="tns:categoryEntity"/>
+      <xs:element minOccurs="0" name="fancy" type="xs:string"/>
+      <xs:element minOccurs="0" name="id" type="xs:int"/>
+      <xs:element minOccurs="0" name="name" type="xs:string"/>
+      <xs:element minOccurs="0" name="price" type="xs:double"/>
+      <xs:element minOccurs="0" name="quantity" type="xs:int"/>
+      <xs:element minOccurs="0" name="cId" type="xs:int"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="categoryEntity">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="categoryId" type="xs:int"/>
+      <xs:element minOccurs="0" name="categotyType" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="findBySearchDate">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:dateTime"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="findBySearchDateResponse">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="return" type="tns:transactionEntity"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Exception" type="tns:Exception"/>
+  <xs:complexType name="Exception">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="message" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
+  </wsdl:types>
+  <wsdl:message name="findBySearchDate">
+    <wsdl:part element="ns1:findBySearchDate" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="Exception">
+    <wsdl:part element="ns1:Exception" name="Exception">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="findBySearcherName">
+    <wsdl:part element="ns1:findBySearcherName" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="findBySearcherNameResponse">
+    <wsdl:part element="ns1:findBySearcherNameResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="findBySearchDateResponse">
+    <wsdl:part element="ns1:findBySearchDateResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="TransactionWsService">
+    <wsdl:operation name="findBySearcherName">
+      <wsdl:input message="ns1:findBySearcherName" name="findBySearcherName">
+    </wsdl:input>
+      <wsdl:output message="ns1:findBySearcherNameResponse" name="findBySearcherNameResponse">
+    </wsdl:output>
+      <wsdl:fault message="ns1:Exception" name="Exception">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="findBySearchDate">
+      <wsdl:input message="ns1:findBySearchDate" name="findBySearchDate">
+    </wsdl:input>
+      <wsdl:output message="ns1:findBySearchDateResponse" name="findBySearchDateResponse">
+    </wsdl:output>
+      <wsdl:fault message="ns1:Exception" name="Exception">
+    </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

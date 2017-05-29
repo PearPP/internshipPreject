@@ -1,0 +1,290 @@
+2016-07-06 08:53:39,604 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.3.Final
+2016-07-06 08:53:39,750 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.2.Final
+2016-07-06 08:53:39,801 INFO  [org.jboss.as] (MSC service thread 1-6) JBAS015899: WildFly 8.2.0.Final "Tweek" starting
+2016-07-06 08:53:39,806 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /home/keelati/oceanProject/oceantest/target/wildfly-run/wildfly-8.2.0.Final/jboss-modules.jar
+	java.class.version = 51.0
+	java.endorsed.dirs = /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/endorsed
+	java.ext.dirs = /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /usr/lib/jvm/java-7-openjdk-amd64/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 1.7.0_55-b14
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.7
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.7.0_55
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.7
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 24.51-b03
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.ajp.port = 9104
+	jboss.bind.address = 0.0.0.0
+	jboss.home.dir = /home/keelati/oceanProject/oceantest/target/wildfly-run/wildfly-8.2.0.Final
+	jboss.host.name = keelati-hp-prodesk-400-g1-sff
+	jboss.http.port = 9004
+	jboss.https.port = 9304
+	jboss.management.http.port = 9204
+	jboss.modules.dir = /home/keelati/oceanProject/oceantest/target/wildfly-run/wildfly-8.2.0.Final/modules
+	jboss.node.name = keelati-hp-prodesk-400-g1-sff
+	jboss.qualified.host.name = keelati-hp-prodesk-400-g1-sff
+	jboss.server.base.dir = /home/keelati/oceanProject/oceantest/target/wildfly-run/wildfly-8.2.0.Final/standalone
+	jboss.server.config.dir = /home/keelati/oceanProject/oceantest/target/wildfly-run/wildfly-8.2.0.Final/standalone/configuration
+	jboss.server.data.dir = /home/keelati/oceanProject/oceantest/target/wildfly-run/wildfly-8.2.0.Final/standalone/data
+	jboss.server.deploy.dir = /home/keelati/oceanProject/oceantest/target/wildfly-run/wildfly-8.2.0.Final/standalone/data/content
+	jboss.server.log.dir = /home/keelati/oceanProject/oceantest/target/wildfly-run/wildfly-8.2.0.Final/standalone/log
+	jboss.server.name = keelati-hp-prodesk-400-g1-sff
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /home/keelati/oceanProject/oceantest/target/wildfly-run/wildfly-8.2.0.Final/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/home/keelati/oceanProject/oceantest/target/wildfly-run/wildfly-8.2.0.Final/standalone/configuration/logging.properties
+	module.path = /home/keelati/oceanProject/oceantest/target/wildfly-run/wildfly-8.2.0.Final/modules
+	nbsweb.defaultPermissions = 0
+	org.jboss.boot.log.file = /home/keelati/oceanProject/oceantest/target/wildfly-run/wildfly-8.2.0.Final/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Linux
+	os.version = 3.11.0-12-generic
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.class.path = /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/netx.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/plugin.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes
+	sun.boot.library.path = /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.desktop = gnome
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /home/keelati/oceanProject/oceantest/target/wildfly-run/wildfly-8.2.0.Final/jboss-modules.jar -mp /home/keelati/oceanProject/oceantest/target/wildfly-run/wildfly-8.2.0.Final/modules org.jboss.as.standalone -Djboss.home.dir=/home/keelati/oceanProject/oceantest/target/wildfly-run/wildfly-8.2.0.Final
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = US
+	user.dir = /home/keelati/oceanProject/oceantest
+	user.home = /home/keelati
+	user.language = en
+	user.name = keelati
+	user.timezone = Asia/Bangkok
+2016-07-06 08:53:39,808 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=9404 -Xms64m -Xmx512m -XX:MaxPermSize=512m -Djava.net.preferIPv4Stack=true -Djboss.http.port=9004 -Djboss.ajp.port=9104 -Djboss.management.http.port=9204 -Djboss.https.port=9304 -Dnbsweb.defaultPermissions=0 -Djboss.bind.address=0.0.0.0 -Dorg.jboss.boot.log.file=/home/keelati/oceanProject/oceantest/target/wildfly-run/wildfly-8.2.0.Final/standalone/log/server.log -Dlogging.configuration=file:/home/keelati/oceanProject/oceantest/target/wildfly-run/wildfly-8.2.0.Final/standalone/configuration/logging.properties 
+2016-07-06 08:53:40,452 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Creating http management service using socket-binding (management-http)
+2016-07-06 08:53:40,463 INFO  [org.xnio] (MSC service thread 1-9) XNIO version 3.3.0.Final
+2016-07-06 08:53:40,469 INFO  [org.xnio.nio] (MSC service thread 1-9) XNIO NIO Implementation Version 3.3.0.Final
+2016-07-06 08:53:40,486 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 32) JBAS010280: Activating Infinispan subsystem.
+2016-07-06 08:53:40,494 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 38) JBAS012615: Activated the following JSF Implementations: [main]
+2016-07-06 08:53:40,494 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 40) JBAS011800: Activating Naming Subsystem
+2016-07-06 08:53:40,500 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 45) JBAS013171: Activating Security Subsystem
+2016-07-06 08:53:40,501 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 46) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+2016-07-06 08:53:40,505 INFO  [org.jboss.as.security] (MSC service thread 1-4) JBAS013170: Current PicketBox version=4.0.21.Final
+2016-07-06 08:53:40,509 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-11) JBAS010408: Starting JCA Subsystem (IronJacamar 1.1.9.Final)
+2016-07-06 08:53:40,511 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Activating WebServices Extension
+2016-07-06 08:53:40,515 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 31) WFLYIO001: Worker 'default' has auto-configured to 16 core threads with 128 task threads based on your 8 available processors
+2016-07-06 08:53:40,533 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2016-07-06 08:53:40,537 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) JBAS010417: Started Driver service with driver-name = h2
+2016-07-06 08:53:40,539 INFO  [org.jboss.as.naming] (MSC service thread 1-11) JBAS011802: Starting Naming Service
+2016-07-06 08:53:40,539 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-7) JBAS015400: Bound mail session [java:jboss/mail/Default]
+2016-07-06 08:53:40,544 INFO  [org.jboss.remoting] (MSC service thread 1-9) JBoss Remoting version 4.0.6.Final
+2016-07-06 08:53:40,545 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-11) JBAS017502: Undertow 1.1.0.Final starting
+2016-07-06 08:53:40,550 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017502: Undertow 1.1.0.Final starting
+2016-07-06 08:53:40,717 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017527: Creating file handler for path /home/keelati/oceanProject/oceantest/target/wildfly-run/wildfly-8.2.0.Final/welcome-content
+2016-07-06 08:53:40,718 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) JBAS017525: Started server default-server.
+2016-07-06 08:53:40,732 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-15) JBAS017531: Host default-host starting
+2016-07-06 08:53:40,783 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) JBAS017519: Undertow HTTP listener default listening on /0.0.0.0:9004
+2016-07-06 08:53:40,874 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-9) JBAS015012: Started FileSystemDeploymentService for directory /home/keelati/oceanProject/oceantest/target/wildfly-run/wildfly-8.2.0.Final/standalone/deployments
+2016-07-06 08:53:40,887 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-14) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+2016-07-06 08:53:41,046 INFO  [org.jboss.ws.common.management] (MSC service thread 1-5) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.2.Final
+2016-07-06 08:53:41,203 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9204/management
+2016-07-06 08:53:41,204 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9204
+2016-07-06 08:53:41,204 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: WildFly 8.2.0.Final "Tweek" started in 1817ms - Started 184 of 234 services (82 services are lazy, passive or on-demand)
+2016-07-06 08:53:44,966 INFO  [org.jboss.as.repository] (management-handler-thread - 4) JBAS014900: Content added at location /home/keelati/oceanProject/oceantest/target/wildfly-run/wildfly-8.2.0.Final/standalone/data/content/2a/4242009348db3595cd801d3196d6eafff790da/content
+2016-07-06 08:53:44,988 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015876: Starting deployment of "oceantest.war" (runtime-name: "oceantest.war")
+2016-07-06 08:53:46,075 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-6) JBAS018567: Deployment "deployment.oceantest.war" is using a private module ("org.apache.cxf.impl:main") which may be changed or removed in future versions without notice.
+2016-07-06 08:53:46,076 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-6) JBAS018567: Deployment "deployment.oceantest.war" is using a private module ("org.apache.cxf.impl:main") which may be changed or removed in future versions without notice.
+2016-07-06 08:53:46,323 WARN  [org.jboss.as.ee] (MSC service thread 1-5) JBAS011006: Not installing optional component org.springframework.web.context.request.async.StandardServletAsyncWebRequest due to an exception (enable DEBUG log level to see the cause)
+2016-07-06 08:53:46,340 WARN  [org.jboss.as.ee] (MSC service thread 1-5) JBAS011006: Not installing optional component org.springframework.http.server.ServletServerHttpAsyncRequestControl due to an exception (enable DEBUG log level to see the cause)
+2016-07-06 08:53:46,407 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) JBAS010404: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 9.1)
+2016-07-06 08:53:46,408 WARN  [org.jboss.weld.deployer] (MSC service thread 1-5) JBAS016012: Deployment deployment "oceantest.war" contains CDI annotations but no bean archive was found (no beans.xml or class with bean defining annotations).
+2016-07-06 08:53:46,431 INFO  [org.jboss.ws.cxf.metadata] (MSC service thread 1-5) JBWS024061: Adding service endpoint metadata: id=OceanTestWsService
+ address=http://keelati-HP-ProDesk-400-G1-SFF:9004/oceantest/ws/oceantestwsservice
+ implementor=com.oceantest.controllers.ws.impl.OceanTestWsServiceImpl
+ serviceName={http://impl.ws.controllers.oceantest.com/}OceanTestWsServiceImplService
+ portName={http://impl.ws.controllers.oceantest.com/}OceanTestWsServiceImplPort
+ annotationWsdlLocation=null
+ wsdlLocationOverride=null
+ mtomEnabled=false
+2016-07-06 08:53:46,432 INFO  [org.jboss.ws.cxf.metadata] (MSC service thread 1-5) JBWS024061: Adding service endpoint metadata: id=ShoesWsService
+ address=http://keelati-HP-ProDesk-400-G1-SFF:9004/oceantest/ws/shoeswsservice
+ implementor=com.oceantest.controllers.ws.shoes.impl.ShoesWsServiceImpl
+ serviceName={http://impl.shoes.ws.controllers.oceantest.com/}ShoesWsServiceImplService
+ portName={http://impl.shoes.ws.controllers.oceantest.com/}ShoesWsServiceImplPort
+ annotationWsdlLocation=null
+ wsdlLocationOverride=null
+ mtomEnabled=false
+2016-07-06 08:53:46,432 INFO  [org.jboss.ws.cxf.metadata] (MSC service thread 1-5) JBWS024061: Adding service endpoint metadata: id=PantWsService
+ address=http://keelati-HP-ProDesk-400-G1-SFF:9004/oceantest/ws/pantwsservice
+ implementor=com.oceantest.controllers.ws.pant.impl.PantWsServiceImpl
+ serviceName={http://impl.pant.ws.controllers.oceantest.com/}PantWsServiceImplService
+ portName={http://impl.pant.ws.controllers.oceantest.com/}PantWsServiceImplPort
+ annotationWsdlLocation=null
+ wsdlLocationOverride=null
+ mtomEnabled=false
+2016-07-06 08:53:46,718 INFO  [org.apache.cxf.service.factory.ReflectionServiceFactoryBean] (MSC service thread 1-5) Creating Service {http://impl.ws.controllers.oceantest.com/}OceanTestWsServiceImplService from class com.oceantest.controllers.ws.OceanTestWsService
+2016-07-06 08:53:46,955 INFO  [org.apache.cxf.endpoint.ServerImpl] (MSC service thread 1-5) Setting the server's publish address to be http://keelati-HP-ProDesk-400-G1-SFF:9004/oceantest/ws/oceantestwsservice
+2016-07-06 08:53:46,990 INFO  [org.jboss.ws.cxf.deployment] (MSC service thread 1-5) JBWS024074: WSDL published to: file:/home/keelati/oceanProject/oceantest/target/wildfly-run/wildfly-8.2.0.Final/standalone/data/wsdl/oceantest.war/OceanTestWsServiceImplService.wsdl
+2016-07-06 08:53:47,006 INFO  [org.apache.cxf.service.factory.ReflectionServiceFactoryBean] (MSC service thread 1-5) Creating Service {http://ws.controllers.oceantest.com/}ProductWsServiceService from class com.oceantest.controllers.ws.ProductWsService
+2016-07-06 08:53:47,057 INFO  [org.apache.cxf.service.factory.ReflectionServiceFactoryBean] (MSC service thread 1-5) Creating Service {http://impl.shoes.ws.controllers.oceantest.com/}ShoesWsServiceImplService from class com.oceantest.controllers.ws.shoes.ShoesWsService
+2016-07-06 08:53:47,099 INFO  [org.apache.cxf.endpoint.ServerImpl] (MSC service thread 1-5) Setting the server's publish address to be http://keelati-HP-ProDesk-400-G1-SFF:9004/oceantest/ws/shoeswsservice
+2016-07-06 08:53:47,104 INFO  [org.jboss.ws.cxf.deployment] (MSC service thread 1-5) JBWS024074: WSDL published to: file:/home/keelati/oceanProject/oceantest/target/wildfly-run/wildfly-8.2.0.Final/standalone/data/wsdl/oceantest.war/ShoesWsServiceImplService.wsdl
+2016-07-06 08:53:47,180 INFO  [org.springframework.context.annotation.AnnotationConfigApplicationContext] (MSC service thread 1-5) Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@f1c7081: startup date [Wed Jul 06 08:53:47 ICT 2016]; root of context hierarchy
+2016-07-06 08:53:47,298 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] (MSC service thread 1-5) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-07-06 08:53:47,314 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] (MSC service thread 1-5) Bean 'persistenceJPAConfig' of type [class com.oceantest.configuration.PersistenceJPAConfig$$EnhancerBySpringCGLIB$$31925266] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-07-06 08:53:47,345 INFO  [org.springframework.jdbc.datasource.DriverManagerDataSource] (MSC service thread 1-5) Loaded JDBC driver: org.postgresql.Driver
+2016-07-06 08:53:47,391 INFO  [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] (MSC service thread 1-5) Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-07-06 08:53:47,396 INFO  [org.hibernate.jpa.internal.util.LogHelper] (MSC service thread 1-5) HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-07-06 08:53:47,431 INFO  [org.hibernate.Version] (MSC service thread 1-5) HHH000412: Hibernate Core {4.3.5.Final}
+2016-07-06 08:53:47,433 INFO  [org.hibernate.cfg.Environment] (MSC service thread 1-5) HHH000206: hibernate.properties not found
+2016-07-06 08:53:47,434 INFO  [org.hibernate.cfg.Environment] (MSC service thread 1-5) HHH000021: Bytecode provider name : javassist
+2016-07-06 08:53:47,499 INFO  [org.hibernate.annotations.common.Version] (MSC service thread 1-5) HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+2016-07-06 08:53:47,610 INFO  [org.hibernate.dialect.Dialect] (MSC service thread 1-5) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2016-07-06 08:53:47,616 INFO  [org.hibernate.engine.jdbc.internal.LobCreatorBuilder] (MSC service thread 1-5) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2016-07-06 08:53:47,690 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (MSC service thread 1-5) HHH000397: Using ASTQueryTranslatorFactory
+2016-07-06 08:53:47,714 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-5) HV000001: Hibernate Validator 5.1.3.Final
+2016-07-06 08:53:47,904 WARN  [org.hibernate.internal.SessionFactoryImpl] (MSC service thread 1-5) HHH000008: JTASessionContext being used with JDBCTransactionFactory; auto-flush will not operate correctly with getCurrentSession()
+2016-07-06 08:53:48,091 INFO  [org.apache.cxf.service.factory.ReflectionServiceFactoryBean] (MSC service thread 1-5) Creating Service {http://impl.pant.ws.controllers.oceantest.com/}PantWsServiceImplService from class com.oceantest.controllers.ws.pant.PantWsService
+2016-07-06 08:53:48,115 INFO  [org.apache.cxf.endpoint.ServerImpl] (MSC service thread 1-5) Setting the server's publish address to be http://keelati-HP-ProDesk-400-G1-SFF:9004/oceantest/ws/pantwsservice
+2016-07-06 08:53:48,120 INFO  [org.jboss.ws.cxf.deployment] (MSC service thread 1-5) JBWS024074: WSDL published to: file:/home/keelati/oceanProject/oceantest/target/wildfly-run/wildfly-8.2.0.Final/standalone/data/wsdl/oceantest.war/PantWsServiceImplService.wsdl
+2016-07-06 08:53:48,140 INFO  [org.jboss.as.webservices] (MSC service thread 1-8) JBAS015539: Starting service jboss.ws.endpoint."oceantest.war".ShoesWsService
+2016-07-06 08:53:48,146 INFO  [org.jboss.as.webservices] (MSC service thread 1-5) JBAS015539: Starting service jboss.ws.endpoint."oceantest.war".PantWsService
+2016-07-06 08:53:48,148 INFO  [org.jboss.as.webservices] (MSC service thread 1-11) JBAS015539: Starting service jboss.ws.endpoint."oceantest.war".OceanTestWsService
+2016-07-06 08:53:48,149 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-15) JBAS010417: Started Driver service with driver-name = oceantest.war_org.postgresql.Driver_9_1
+2016-07-06 08:53:48,210 INFO  [io.undertow.servlet] (MSC service thread 1-8) 1 Spring WebApplicationInitializers detected on classpath
+2016-07-06 08:53:48,255 INFO  [io.undertow.servlet] (MSC service thread 1-8) Initializing Spring root WebApplicationContext
+2016-07-06 08:53:48,255 INFO  [org.springframework.web.context.ContextLoader] (MSC service thread 1-8) Root WebApplicationContext: initialization started
+2016-07-06 08:53:48,256 INFO  [org.springframework.web.context.support.AnnotationConfigWebApplicationContext] (MSC service thread 1-8) Refreshing Root WebApplicationContext: startup date [Wed Jul 06 08:53:48 ICT 2016]; root of context hierarchy
+2016-07-06 08:53:48,257 INFO  [org.springframework.web.context.support.AnnotationConfigWebApplicationContext] (MSC service thread 1-8) Registering annotated classes: [class com.oceantest.configuration.OceanTestServicesConfig]
+2016-07-06 08:53:48,333 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] (MSC service thread 1-8) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-07-06 08:53:48,335 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] (MSC service thread 1-8) Bean 'com.oceantest.configuration.PersistenceJPAConfig' of type [class com.oceantest.configuration.PersistenceJPAConfig$$EnhancerBySpringCGLIB$$31925266] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-07-06 08:53:48,342 INFO  [org.springframework.jdbc.datasource.DriverManagerDataSource] (MSC service thread 1-8) Loaded JDBC driver: org.postgresql.Driver
+2016-07-06 08:53:48,354 INFO  [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] (MSC service thread 1-8) Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-07-06 08:53:48,354 INFO  [org.hibernate.jpa.internal.util.LogHelper] (MSC service thread 1-8) HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-07-06 08:53:48,418 INFO  [org.hibernate.dialect.Dialect] (MSC service thread 1-8) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2016-07-06 08:53:48,418 INFO  [org.hibernate.engine.jdbc.internal.LobCreatorBuilder] (MSC service thread 1-8) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2016-07-06 08:53:48,424 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (MSC service thread 1-8) HHH000397: Using ASTQueryTranslatorFactory
+2016-07-06 08:53:48,443 WARN  [org.hibernate.internal.SessionFactoryImpl] (MSC service thread 1-8) HHH000008: JTASessionContext being used with JDBCTransactionFactory; auto-flush will not operate correctly with getCurrentSession()
+2016-07-06 08:53:48,453 WARN  [org.hibernate.jpa.internal.EntityManagerFactoryRegistry] (MSC service thread 1-8) HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+2016-07-06 08:53:48,705 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] (MSC service thread 1-8) Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Wed Jul 06 08:53:48 ICT 2016]; root of context hierarchy
+2016-07-06 08:53:48,750 INFO  [org.springframework.web.context.ContextLoader] (MSC service thread 1-8) Root WebApplicationContext: initialization completed in 495 ms
+2016-07-06 08:53:48,759 INFO  [io.undertow.servlet] (MSC service thread 1-8) Initializing Spring FrameworkServlet 'dispatcherRest'
+2016-07-06 08:53:48,759 INFO  [org.springframework.web.servlet.DispatcherServlet] (MSC service thread 1-8) FrameworkServlet 'dispatcherRest': initialization started
+2016-07-06 08:53:48,760 INFO  [org.springframework.web.context.support.AnnotationConfigWebApplicationContext] (MSC service thread 1-8) Refreshing WebApplicationContext for namespace 'dispatcherRest-servlet': startup date [Wed Jul 06 08:53:48 ICT 2016]; parent: Root WebApplicationContext
+2016-07-06 08:53:48,760 INFO  [org.springframework.web.context.support.AnnotationConfigWebApplicationContext] (MSC service thread 1-8) Registering annotated classes: [class com.oceantest.configuration.OceanTestRestConfig]
+2016-07-06 08:53:48,785 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] (MSC service thread 1-8) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-07-06 08:53:48,825 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (MSC service thread 1-8) Mapped "{[/testProduct/shoes/],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<java.util.Map<java.lang.String, java.lang.Object>>> com.oceantest.controllers.rest.otherProduct.OtherProductRestTestController.showAllShoes()
+2016-07-06 08:53:48,826 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (MSC service thread 1-8) Mapped "{[/testProduct/shirt/],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<java.util.Map<java.lang.String, java.lang.Object>>> com.oceantest.controllers.rest.otherProduct.OtherProductRestTestController.showAllShirt()
+2016-07-06 08:53:48,828 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (MSC service thread 1-8) Mapped "{[/Pant/pant/jpa/],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.oceantest.services.jpa.model.PantEntity>> com.oceantest.controllers.rest.pant.PantJpaRestController.showAllJpaPant() throws java.lang.Exception
+2016-07-06 08:53:48,828 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (MSC service thread 1-8) Mapped "{[/Pant/pant/jpa/],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.oceantest.controllers.rest.pant.PantJpaRestController.createNewJpaPant(com.oceantest.services.jpa.model.PantEntity,org.springframework.web.util.UriComponentsBuilder)
+2016-07-06 08:53:48,828 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (MSC service thread 1-8) Mapped "{[/Pant/pant/jpa/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.oceantest.services.jpa.model.PantEntity> com.oceantest.controllers.rest.pant.PantJpaRestController.findByJpaId(long) throws java.lang.Exception
+2016-07-06 08:53:48,829 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (MSC service thread 1-8) Mapped "{[/Pant/pant/jpa/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.oceantest.services.jpa.model.PantEntity> com.oceantest.controllers.rest.pant.PantJpaRestController.updateJpaPant(long,com.oceantest.services.jpa.model.PantEntity) throws java.lang.Exception
+2016-07-06 08:53:48,829 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (MSC service thread 1-8) Mapped "{[/Pant/pant/jpa/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<com.oceantest.services.jpa.model.PantEntity> com.oceantest.controllers.rest.pant.PantJpaRestController.deleteSingleJpaPant(long) throws java.lang.Exception
+2016-07-06 08:53:48,831 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (MSC service thread 1-8) Mapped "{[/Transaction/trans/],methods=[GET],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.oceantest.services.jpa.model.TransactionEntity>> com.oceantest.controllers.rest.pant.TransactionRestController.showAllTransaction() throws java.lang.Exception
+2016-07-06 08:53:48,831 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (MSC service thread 1-8) Mapped "{[/Transaction/trans/],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.oceantest.controllers.rest.pant.TransactionRestController.createTransaction(com.oceantest.services.jpa.model.TransactionEntity,org.springframework.web.util.UriComponentsBuilder)
+2016-07-06 08:53:48,835 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (MSC service thread 1-8) Mapped "{[/testPant/pant/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.oceantest.services.pant.model.Pant> com.oceantest.controllers.rest.pant.PantTestRestController.updatePant(long,com.oceantest.services.pant.model.Pant)
+2016-07-06 08:53:48,835 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (MSC service thread 1-8) Mapped "{[/testPant/pant/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.oceantest.services.pant.model.Pant> com.oceantest.controllers.rest.pant.PantTestRestController.findById(long)
+2016-07-06 08:53:48,835 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (MSC service thread 1-8) Mapped "{[/testPant/pant/jpa/],methods=[GET],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.oceantest.services.jpa.model.PantEntity>> com.oceantest.controllers.rest.pant.PantTestRestController.showAllJpaPant() throws java.lang.Exception
+2016-07-06 08:53:48,835 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (MSC service thread 1-8) Mapped "{[/testPant/pant/],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<com.oceantest.services.pant.model.Pant> com.oceantest.controllers.rest.pant.PantTestRestController.deleteAllPant()
+2016-07-06 08:53:48,835 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (MSC service thread 1-8) Mapped "{[/testPant/pant/jpa/],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.oceantest.controllers.rest.pant.PantTestRestController.createNewJpaPant(com.oceantest.services.jpa.model.PantEntity,org.springframework.web.util.UriComponentsBuilder)
+2016-07-06 08:53:48,836 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (MSC service thread 1-8) Mapped "{[/testPant/pant/jpa/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.oceantest.services.jpa.model.PantEntity> com.oceantest.controllers.rest.pant.PantTestRestController.findByJpaId(long) throws java.lang.Exception
+2016-07-06 08:53:48,836 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (MSC service thread 1-8) Mapped "{[/testPant/pant/jpa/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<com.oceantest.services.jpa.model.PantEntity> com.oceantest.controllers.rest.pant.PantTestRestController.updateJpaPant(long,com.oceantest.services.jpa.model.PantEntity) throws java.lang.Exception
+2016-07-06 08:53:48,836 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (MSC service thread 1-8) Mapped "{[/testPant/pant/jpa/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<com.oceantest.services.jpa.model.PantEntity> com.oceantest.controllers.rest.pant.PantTestRestController.deleteSingleJpaPant(long) throws java.lang.Exception
+2016-07-06 08:53:48,836 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (MSC service thread 1-8) Mapped "{[/testPant/pant/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<com.oceantest.services.pant.model.Pant> com.oceantest.controllers.rest.pant.PantTestRestController.deleteSinglePant(long)
+2016-07-06 08:53:48,837 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (MSC service thread 1-8) Mapped "{[/testPant/pant/],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.oceantest.controllers.rest.pant.PantTestRestController.createNewPant(com.oceantest.services.pant.model.Pant,org.springframework.web.util.UriComponentsBuilder)
+2016-07-06 08:53:48,837 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (MSC service thread 1-8) Mapped "{[/testPant/pant/],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.oceantest.services.pant.model.Pant>> com.oceantest.controllers.rest.pant.PantTestRestController.showAllPant()
+2016-07-06 08:53:48,852 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] (MSC service thread 1-8) Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherRest-servlet': startup date [Wed Jul 06 08:53:48 ICT 2016]; parent: Root WebApplicationContext
+2016-07-06 08:53:48,876 INFO  [org.springframework.web.servlet.DispatcherServlet] (MSC service thread 1-8) FrameworkServlet 'dispatcherRest': initialization completed in 117 ms
+2016-07-06 08:53:48,877 INFO  [io.undertow.servlet] (MSC service thread 1-8) Initializing Spring FrameworkServlet 'dispatcherWS'
+2016-07-06 08:53:48,877 INFO  [org.springframework.web.servlet.DispatcherServlet] (MSC service thread 1-8) FrameworkServlet 'dispatcherWS': initialization started
+2016-07-06 08:53:48,877 INFO  [org.springframework.web.context.support.AnnotationConfigWebApplicationContext] (MSC service thread 1-8) Refreshing WebApplicationContext for namespace 'dispatcherWS-servlet': startup date [Wed Jul 06 08:53:48 ICT 2016]; parent: Root WebApplicationContext
+2016-07-06 08:53:48,877 INFO  [org.springframework.web.context.support.AnnotationConfigWebApplicationContext] (MSC service thread 1-8) Registering annotated classes: [class com.oceantest.configuration.OceanTestWSConfig]
+2016-07-06 08:53:48,892 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] (MSC service thread 1-8) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-07-06 08:53:48,944 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] (MSC service thread 1-8) Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherWS-servlet': startup date [Wed Jul 06 08:53:48 ICT 2016]; parent: Root WebApplicationContext
+2016-07-06 08:53:48,968 INFO  [org.springframework.web.servlet.DispatcherServlet] (MSC service thread 1-8) FrameworkServlet 'dispatcherWS': initialization completed in 91 ms
+2016-07-06 08:53:48,969 INFO  [io.undertow.servlet] (MSC service thread 1-8) Initializing Spring FrameworkServlet 'dispatcherWeb'
+2016-07-06 08:53:48,969 INFO  [org.springframework.web.servlet.DispatcherServlet] (MSC service thread 1-8) FrameworkServlet 'dispatcherWeb': initialization started
+2016-07-06 08:53:48,969 INFO  [org.springframework.web.context.support.AnnotationConfigWebApplicationContext] (MSC service thread 1-8) Refreshing WebApplicationContext for namespace 'dispatcherWeb-servlet': startup date [Wed Jul 06 08:53:48 ICT 2016]; parent: Root WebApplicationContext
+2016-07-06 08:53:48,970 INFO  [org.springframework.web.context.support.AnnotationConfigWebApplicationContext] (MSC service thread 1-8) Registering annotated classes: [class com.oceantest.configuration.OceanTestWebConfig]
+2016-07-06 08:53:48,987 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] (MSC service thread 1-8) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-07-06 08:53:49,027 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (MSC service thread 1-8) Mapped "{[/policy-info/index.html]}" onto public java.lang.String com.oceantest.web.newcase.action.PolicyAction.index()
+2016-07-06 08:53:49,030 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (MSC service thread 1-8) Mapped "{[/store/bottoms/delete/{id}],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.oceantest.web.test.StoreAppController.deleteSinglePant(long,org.springframework.web.servlet.mvc.support.RedirectAttributes) throws java.lang.Exception
+2016-07-06 08:53:49,031 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (MSC service thread 1-8) Mapped "{[/store/about],methods=[GET]}" onto public java.lang.String com.oceantest.web.test.StoreAppController.contactUsPage(org.springframework.ui.ModelMap)
+2016-07-06 08:53:49,031 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (MSC service thread 1-8) Mapped "{[/store/tops],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.oceantest.web.test.StoreAppController.shirtListPage() throws java.lang.Exception
+2016-07-06 08:53:49,031 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (MSC service thread 1-8) Mapped "{[/store/shoes],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.oceantest.web.test.StoreAppController.shoesListPage() throws java.lang.Exception
+2016-07-06 08:53:49,031 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (MSC service thread 1-8) Mapped "{[/store/home],methods=[GET]}" onto public java.lang.String com.oceantest.web.test.StoreAppController.homePage(org.springframework.ui.ModelMap)
+2016-07-06 08:53:49,032 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (MSC service thread 1-8) Mapped "{[/store/bottoms/create],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.oceantest.web.test.StoreAppController.NewBottom()
+2016-07-06 08:53:49,032 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (MSC service thread 1-8) Mapped "{[/store/bottoms/create],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.oceantest.web.test.StoreAppController.createNewBottom(com.oceantest.services.jpa.model.PantEntity,org.springframework.validation.BindingResult,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2016-07-06 08:53:49,032 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (MSC service thread 1-8) Mapped "{[/store/bottoms],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.oceantest.web.test.StoreAppController.pantListPage() throws java.lang.Exception
+2016-07-06 08:53:49,032 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (MSC service thread 1-8) Mapped "{[/store/bottoms/{brand}],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.oceantest.web.test.StoreAppController.findPantByBrand(java.lang.String)
+2016-07-06 08:53:49,033 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (MSC service thread 1-8) Mapped "{[/store/bottoms/edit/{id}],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.oceantest.web.test.StoreAppController.editPantPage(long) throws java.lang.Exception
+2016-07-06 08:53:49,033 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (MSC service thread 1-8) Mapped "{[/store/bottoms/edit/{id}],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.oceantest.web.test.StoreAppController.editPant(com.oceantest.services.jpa.model.PantEntity,org.springframework.validation.BindingResult,long,org.springframework.web.servlet.mvc.support.RedirectAttributes) throws java.lang.Exception
+2016-07-06 08:53:49,035 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (MSC service thread 1-8) Mapped "{[/test/shirt]}" onto public org.springframework.web.servlet.ModelAndView com.oceantest.web.test.TestAction.shirtListPage() throws java.lang.Exception
+2016-07-06 08:53:49,035 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (MSC service thread 1-8) Mapped "{[/test/shoes]}" onto public org.springframework.web.servlet.ModelAndView com.oceantest.web.test.TestAction.shoesListPage() throws java.lang.Exception
+2016-07-06 08:53:49,035 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (MSC service thread 1-8) Mapped "{[/test/pant]}" onto public org.springframework.web.servlet.ModelAndView com.oceantest.web.test.TestAction.pantListPage() throws java.lang.Exception
+2016-07-06 08:53:49,035 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (MSC service thread 1-8) Mapped "{[/test/index]}" onto public java.lang.String com.oceantest.web.test.TestAction.test()
+2016-07-06 08:53:49,035 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] (MSC service thread 1-8) Mapped "{[/test/home]}" onto public java.lang.String com.oceantest.web.test.TestAction.home(org.springframework.ui.ModelMap)
+2016-07-06 08:53:49,089 INFO  [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] (MSC service thread 1-8) Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-07-06 08:53:49,099 INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] (MSC service thread 1-8) Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherWeb-servlet': startup date [Wed Jul 06 08:53:48 ICT 2016]; parent: Root WebApplicationContext
+2016-07-06 08:53:49,161 INFO  [org.apache.tiles.access.TilesAccess] (MSC service thread 1-8) Publishing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2016-07-06 08:53:49,185 INFO  [org.springframework.web.servlet.DispatcherServlet] (MSC service thread 1-8) FrameworkServlet 'dispatcherWeb': initialization completed in 216 ms
+2016-07-06 08:53:49,185 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) JBAS017534: Registered web context: /oceantest
+2016-07-06 08:53:49,268 INFO  [org.jboss.as.server] (management-handler-thread - 4) JBAS018559: Deployed "oceantest.war" (runtime-name : "oceantest.war")
+2016-07-06 17:12:22,208 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-9) JBAS017535: Unregistered web context: /oceantest
+2016-07-06 17:12:22,209 INFO  [io.undertow.servlet] (MSC service thread 1-9) Destroying Spring FrameworkServlet 'dispatcherWeb'
+2016-07-06 17:12:22,210 INFO  [org.springframework.web.context.support.AnnotationConfigWebApplicationContext] (MSC service thread 1-9) Closing WebApplicationContext for namespace 'dispatcherWeb-servlet': startup date [Wed Jul 06 08:53:48 ICT 2016]; parent: Root WebApplicationContext
+2016-07-06 17:12:22,210 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-13) JBAS010418: Stopped Driver service with driver-name = oceantest.war_org.postgresql.Driver_9_1
+2016-07-06 17:12:22,219 INFO  [org.apache.tiles.access.TilesAccess] (MSC service thread 1-9) Removing TilesContext for context: org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext
+2016-07-06 17:12:22,220 INFO  [io.undertow.servlet] (MSC service thread 1-9) Destroying Spring FrameworkServlet 'dispatcherRest'
+2016-07-06 17:12:22,221 INFO  [org.springframework.web.context.support.AnnotationConfigWebApplicationContext] (MSC service thread 1-9) Closing WebApplicationContext for namespace 'dispatcherRest-servlet': startup date [Wed Jul 06 08:53:48 ICT 2016]; parent: Root WebApplicationContext
+2016-07-06 17:12:22,225 INFO  [io.undertow.servlet] (MSC service thread 1-9) Destroying Spring FrameworkServlet 'dispatcherWS'
+2016-07-06 17:12:22,225 INFO  [org.springframework.web.context.support.AnnotationConfigWebApplicationContext] (MSC service thread 1-9) Closing WebApplicationContext for namespace 'dispatcherWS-servlet': startup date [Wed Jul 06 08:53:48 ICT 2016]; parent: Root WebApplicationContext
+2016-07-06 17:12:22,227 INFO  [io.undertow.servlet] (MSC service thread 1-9) Closing Spring root WebApplicationContext
+2016-07-06 17:12:22,227 INFO  [org.springframework.web.context.support.AnnotationConfigWebApplicationContext] (MSC service thread 1-9) Closing Root WebApplicationContext: startup date [Wed Jul 06 08:53:48 ICT 2016]; root of context hierarchy
+2016-07-06 17:12:22,229 INFO  [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] (MSC service thread 1-9) Closing JPA EntityManagerFactory for persistence unit 'default'
+2016-07-06 17:12:22,238 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) JBAS017532: Host default-host stopping
+2016-07-06 17:12:22,247 INFO  [org.jboss.as.webservices] (MSC service thread 1-2) JBAS015540: Stopping service jboss.ws.endpoint."oceantest.war".PantWsService
+2016-07-06 17:12:22,247 INFO  [org.jboss.as.webservices] (MSC service thread 1-16) JBAS015540: Stopping service jboss.ws.endpoint."oceantest.war".ShoesWsService
+2016-07-06 17:12:22,248 INFO  [org.jboss.as.webservices] (MSC service thread 1-6) JBAS015540: Stopping service jboss.ws.endpoint."oceantest.war".OceanTestWsService
+2016-07-06 17:12:22,262 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-14) JBAS010409: Unbound data source [java:jboss/datasources/ExampleDS]
+2016-07-06 17:12:22,264 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-15) JBAS010418: Stopped Driver service with driver-name = h2
+2016-07-06 17:12:22,290 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) JBAS017521: Undertow HTTP listener default suspending
+2016-07-06 17:12:22,291 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) JBAS017520: Undertow HTTP listener default stopped, was bound to /0.0.0.0:9004
+2016-07-06 17:12:22,292 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) JBAS017506: Undertow 1.1.0.Final stopping
+2016-07-06 17:12:22,313 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015877: Stopped deployment oceantest.war (runtime-name: oceantest.war) in 111ms
+2016-07-06 17:12:22,319 INFO  [org.jboss.as] (MSC service thread 1-16) JBAS015950: WildFly 8.2.0.Final "Tweek" stopped in 93ms

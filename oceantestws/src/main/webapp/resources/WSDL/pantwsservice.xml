@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8'?><wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:ns1="http://pant.ws.controllers.oceantest.com/" name="PantWsService" targetNamespace="http://pant.ws.controllers.oceantest.com/">
+  <wsdl:types>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://pant.ws.controllers.oceantest.com/" attributeFormDefault="unqualified" elementFormDefault="unqualified" targetNamespace="http://pant.ws.controllers.oceantest.com/">
+  <xs:element name="findByBrand" type="tns:findByBrand"/>
+  <xs:element name="findByBrandResponse" type="tns:findByBrandResponse"/>
+  <xs:element name="findById" type="tns:findById"/>
+  <xs:element name="findByIdResponse" type="tns:findByIdResponse"/>
+  <xs:element name="showAllJpaPant" type="tns:showAllJpaPant"/>
+  <xs:element name="showAllJpaPantResponse" type="tns:showAllJpaPantResponse"/>
+  <xs:complexType name="showAllJpaPant">
+    <xs:sequence/>
+  </xs:complexType>
+  <xs:complexType name="showAllJpaPantResponse">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="return" type="tns:pantEntity"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="pantEntity">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="categoryId" type="tns:categoryEntity"/>
+      <xs:element minOccurs="0" name="pantBrand" type="xs:string"/>
+      <xs:element name="pantId" type="xs:long"/>
+      <xs:element minOccurs="0" name="pantModel" type="xs:string"/>
+      <xs:element minOccurs="0" name="pantPrice" type="xs:double"/>
+      <xs:element minOccurs="0" name="pantTest" type="xs:long"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="categoryEntity">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="id" type="xs:long"/>
+      <xs:element minOccurs="0" name="name" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="findById">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:long"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="findByIdResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:pantEntity"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="findByBrand">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="findByBrandResponse">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="return" type="tns:pantEntity"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Exception" type="tns:Exception"/>
+  <xs:complexType name="Exception">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="message" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
+  </wsdl:types>
+  <wsdl:message name="findById">
+    <wsdl:part element="ns1:findById" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="findByBrandResponse">
+    <wsdl:part element="ns1:findByBrandResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="findByIdResponse">
+    <wsdl:part element="ns1:findByIdResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="Exception">
+    <wsdl:part element="ns1:Exception" name="Exception">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="findByBrand">
+    <wsdl:part element="ns1:findByBrand" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="showAllJpaPantResponse">
+    <wsdl:part element="ns1:showAllJpaPantResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="showAllJpaPant">
+    <wsdl:part element="ns1:showAllJpaPant" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="PantWsService">
+    <wsdl:operation name="showAllJpaPant">
+      <wsdl:input message="ns1:showAllJpaPant" name="showAllJpaPant">
+    </wsdl:input>
+      <wsdl:output message="ns1:showAllJpaPantResponse" name="showAllJpaPantResponse">
+    </wsdl:output>
+      <wsdl:fault message="ns1:Exception" name="Exception">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="findById">
+      <wsdl:input message="ns1:findById" name="findById">
+    </wsdl:input>
+      <wsdl:output message="ns1:findByIdResponse" name="findByIdResponse">
+    </wsdl:output>
+      <wsdl:fault message="ns1:Exception" name="Exception">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="findByBrand">
+      <wsdl:input message="ns1:findByBrand" name="findByBrand">
+    </wsdl:input>
+      <wsdl:output message="ns1:findByBrandResponse" name="findByBrandResponse">
+    </wsdl:output>
+      <wsdl:fault message="ns1:Exception" name="Exception">
+    </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>
